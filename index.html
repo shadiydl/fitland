@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Fitland</title>
     <link rel="stylesheet" href="./src/css/output.css" />
   </head>
   <body>
     <!-- #region wrapper-->
     <div class="wrapper w-full">
       <!-- #region header-->
-      <div class="header w-full h-[237px]">
+      <div class="header w-full lg: h-[237px]">
         <div
           class="w-full h-[40px] bg-[#032340] flex justify-center items-center"
         >
@@ -47,11 +47,12 @@
             <div
               class="flex justify-center items-center w-[142px] h-[48px] rounded-[12px] bg-[#FFFFFF] shadow-xl"
             >
-              <p class="text-[16px] pl-[3px] text-[#404040] font-sans">
+              <a  href="#" class="text-[16px] pl-[3px] text-[#404040] font-sans">
                 ثبت نام
-              </p>
+              </a>
+              
               <span class="w-[1px] h-[14px] bg-black"></span>
-              <p class="text-[16px] pr-[3px] text-[#404040] font-sans">ورود</p>
+              <a href="#"   class="text-[16px] pr-[3px] text-[#404040] font-sans">ورود</a>
               <img
                 src="./src/images/header/user.svg"
                 class="w-[22px] h-[22px]"
@@ -75,29 +76,29 @@
               class="w-[50%] h-[100%] flex justify-start items-center gap-[40px] pr-[40px]"
             >
               <div>
-                <p class="font-sans text-[16px] font-bold text-[#000306]">
+                <a  href="#" class="font-sans text-[16px] font-bold text-[#000306]">
                   مردانه
-                </p>
+                </a>
               </div>
               <div>
-                <p class="font-sans text-[16px] font-bold text-[#000306]">
+                <a   href="#" class="font-sans text-[16px] font-bold text-[#000306]">
                   زنانه
-                </p>
+                </a>
               </div>
               <div>
-                <p class="font-sans text-[16px] font-bold text-[#000306]">
+                <a  href="#" class="font-sans text-[16px] font-bold text-[#000306]">
                   بچگانه
-                </p>
+                </a>
               </div>
               <div>
-                <p class="font-sans text-[16px] font-bold text-[#000306]">
+                <a href="#" class="font-sans text-[16px] font-bold text-[#000306]">
                   لوازم ورزشی
-                </p>
+                </a>
               </div>
               <div>
-                <p class="font-sans text-[16px] font-bold text-[#000306]">
+                <a href="#" class="font-sans text-[16px] font-bold text-[#000306]">
                   شیکر و جاگ
-                </p>
+                </a>
               </div>
             </div>
             <div
@@ -109,9 +110,9 @@
                   class="w-[18px] h-[18px] pl-[3px]"
                   alt=""
                 />
-                <p class="font-sans text-[16px] font-bold text-[#000306]">
+                <a href="#" class="font-sans text-[16px] font-bold text-[#000306]">
                   جدیدترین محصولات
-                </p>
+                </a>
               </div>
               <div class="flex justify-center items-center">
                 <img
@@ -119,9 +120,9 @@
                   class="w-[18px] h-[18px] pl-[3px]"
                   alt=""
                 />
-                <p class="font-sans text-[16px] font-bold text-[#000306]">
+                <a href="#" class="font-sans text-[16px] font-bold text-[#000306]">
                   تخفیفات
-                </p>
+                </a>
               </div>
               <div class="flex justify-center items-center">
                 <img
@@ -129,9 +130,9 @@
                   class="w-[18px] h-[18px] pl-[3px]"
                   alt=""
                 />
-                <p class="font-sans text-[16px] font-bold text-[#000306]">
+                <a href="#" class="font-sans text-[16px] font-bold text-[#000306]">
                   پرفروش ترین ها
-                </p>
+                </a>
               </div>
             </div>
           </div>
@@ -163,7 +164,7 @@
                 class="w-[24px] h-[24px]"
                 alt=""
               />
-              <p class="text-[14px] text-[#FFFFFF] font-sans">مشاهده محصولات</p>
+              <a href="#" class="text-[14px] text-[#FFFFFF] font-sans">مشاهده محصولات</a>
             </div>
           </div>
           <div>
@@ -240,19 +241,49 @@
       <!-- #region new-->
       <div class="w-full h-[500px] flex justify-center">
         <div class="w-[70%] h-[100%] flex justify-between gap-[15px]">
-          <div class="w-[392px] h-[462px]">
+          <div class="w-[392px] h-[462px] relative">
             <img
               src="./src/images/new/image-1.png"
               alt=""
               class="w-full h-[384px] object-cover rounded-md"
             />
+            <div class="absolute bottom-[75px]">
+              <img
+                src="./src/images/imagee/1.png"
+                alt=""
+                class="h-[140px] w-[392px]"
+              />
+            </div>
+            <div class="absolute bottom-[110px] pr-[10px]">
+              <p class="font-sans text-[#FFFFFF] text-[16px] mb-[5px]">
+                جدیدترین تخفیفات فصل برند پوما
+              </p>
+              <p class="font-sans text-[#FFFFFF] text-[16px]">
+                ۵۰ ٪ تخفیف روی تمام محصولات
+              </p>
+            </div>
           </div>
-          <div class="w-[392px] h-[462px]">
+          <div class="w-[392px] h-[462px] relative">
             <img
               src="./src/images/new/image-2.png"
               alt=""
               class="w-full h-[384px] object-cover rounded-md"
             />
+            <div class="absolute bottom-[75px]">
+              <img
+                src="./src/images/imagee/1.png"
+                alt=""
+                class="h-[130px] w-[392px]"
+              />
+            </div>
+            <div class="absolute bottom-[110px] pr-[10px]">
+              <p class="font-sans text-[#FFFFFF] text-[16px] mb-[5px]">
+                جدیدترین تخفیفات فصل برند نایک
+              </p>
+              <p class="font-sans text-[#FFFFFF] text-[16px]">
+                ۵۰ ٪ تخفیف روی تمام محصولات
+              </p>
+            </div>
           </div>
           <div class="w-[392px] h-[462px] relative">
             <div class="w-[309px] h-[221px] absolute bottom-[79px]">
@@ -269,9 +300,9 @@
                 class="flex justify-center items-center w-[309px] h-[48px] bg-[#FA541C] rounded-[5px] gap-[8px] mt-[62px]"
               >
                 <img src="./src/images/header/arrow-left.svg" alt="" />
-                <p class="text-[#FFFFFF] font-sans font-bold text-[14px]">
+                <a href="#" class="text-[#FFFFFF] font-sans font-bold text-[14px]">
                   مشاهده همه محصولات
-                </p>
+                </a>
               </div>
             </div>
           </div>
@@ -280,18 +311,525 @@
       <!-- #endregion new -->
       <!-- #region image-->
       <div class="w-[100%] h-[600px] relative">
-        <div class="absolute w-[371px] h-[200px] top-[159px] left-[924px] p-[24px]">
+        <div
+          class="absolute w-[371px] h-[200px] top-[159px] left-[924px] p-[24px]"
+        >
           <p class="font-sans text-[18px] text-[#01070D]">برای حال خوب</p>
-          <h3 class="font-sans font-bold text-[#01070D] ">لوازم ایروبیک و تناسب اندام بگیر</h3>
-          <div class=" flex justify-center items-center gap-[5px] bg-[#032340] rounded-[5px] w-[236px] h-[48px] mt-[25px]">
-            <img src="./src/images/header/arrow-left.svg" alt="">
-            <p class="text-[#FFFFFF] font-sans text-[14px] font-bold">مشاهده همه محصولات</p>
+          <h3 class="font-sans font-bold text-[#01070D]">
+            لوازم ایروبیک و تناسب اندام بگیر
+          </h3>
+          <div
+            class="flex justify-center items-center gap-[5px] bg-[#032340] rounded-[5px] w-[236px] h-[48px] mt-[25px]"
+          >
+            <img src="./src/images/header/arrow-left.svg" alt="" />
+            <a href="#" class="text-[#FFFFFF] font-sans text-[14px] font-bold">
+              مشاهده همه محصولات
+            </a>
           </div>
         </div>
-        <img src="./src/images/imagee/image.png" alt="" class="w-full h-full" />
+        <img
+          src="./src/images/imagee/image.png"
+          alt=""
+          class="w-full h-full object-cover"
+        />
       </div>
       <!-- #endregion image-->
+      <!-- #region sale-->
+      <div class="w-fit h-[48px] mx-auto mt-[60px]">
+        <p class="font-sans text-[32px] text-[#021526]">تخفیفات ویژه</p>
+      </div>
+      <div class="flex mr-[1200px] gap-[6px]">
+        <img
+          src="./src/images/sale/arrow-left.svg"
+          alt=""
+          class="w-[24px] h-[24px]"
+        />
+        <a href="#" class="font-sans text-[#032340] text-[18px]">مشاهده همه</a>
+      </div>
+      <div class="w-full h-[600px] flex justify-center mt-[30px]">
+        <div class="w-[80%] h-full flex justify-evenly">
+          <div
+            class="relative w-[366px] h-[467px] rounded-[8px] border-[1px] border-[lightgrey]"
+          >
+            <img
+              src="./src/images/sale/image-1.png"
+              alt=""
+              class="w-[366px] h-[280px]"
+            />
+            <div
+              class="absolute w-[40px] h-[40px] top-0 left-0 rounded-[50%] bg-[#FA541C]"
+            >
+              <p class="text-[#FFFFFF] mt-[8px] mr-[6px]">VIP</p>
+            </div>
+            <div class="w-[366px] h-[187px] p-[15px]">
+              <p class="font-sans text-[#01070D] text-[16px] mb-[8px]">
+                سویشرت نایک مدل AO-14
+              </p>
+              <p class="font-sans text-[#000306] text-[14px] mb-[8px]">
+                ۳۰۰,۰۰۰ تومان
+              </p>
+              <p class="font-sans text-[#404040] text-[12px] mb-[5px]">
+                از سایز L تا XXL
+              </p>
+              <div class="flex">
+                <div class="w-[18px] h-[18px] bg-[#01070D] rounded-[50%]"></div>
+                <div class="w-[18px] h-[18px] bg-[#CBCBCB] rounded-[50%]"></div>
+                <div class="w-[18px] h-[18px] bg-[#01070D] rounded-[50%]"></div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="relative w-[366px] h-[467px] rounded-[8px] border-[1px] border-[lightgrey]"
+          >
+            <img
+              src="./src/images/sale/image-2.png"
+              alt=""
+              class="w-[366px] h-[280px]"
+            />
+            <div
+              class="absolute w-[40px] h-[40px] top-0 left-0 rounded-[50%] bg-[#67AAE6]"
+            >
+              <p class="text-[#032340] mt-[8px]">24%</p>
+            </div>
+            <div class="w-[366px] h-[187px] p-[15px]">
+              <p class="font-sans text-[#01070D] text-[16px] mb-[8px]">
+                ست نایک مدل S-2000
+              </p>
+              <p class="font-sans text-[#000306] text-[14px] mb-[8px]">
+                ۳۰۰,۰۰۰ تومان
+              </p>
+              <p class="font-sans text-[#404040] text-[12px] mb-[5px]">
+                از سایز L تا XXL
+              </p>
+              <div class="flex">
+                <div class="w-[18px] h-[18px] bg-[#01070D] rounded-[50%]"></div>
+                <div class="w-[18px] h-[18px] bg-[#CBCBCB] rounded-[50%]"></div>
+                <div class="w-[18px] h-[18px] bg-[#01070D] rounded-[50%]"></div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="relative w-[366px] h-[467px] rounded-[8px] border-[1px] border-[lightgrey]"
+          >
+            <img
+              src="./src/images/sale/image-3.png"
+              alt=""
+              class="w-[366px] h-[280px]"
+            />
+            <div
+              class="absolute w-[40px] h-[40px] top-0 left-0 rounded-[50%] bg-[#67AAE6]"
+            >
+              <p class="text-[#032340] mt-[8px]">24%</p>
+            </div>
+            <div class="w-[366px] h-[187px] p-[15px]">
+              <p class="font-sans text-[#01070D] text-[16px] mb-[8px]">
+                کفش نایک مدل S-2000
+              </p>
+              <p class="font-sans text-[#000306] text-[14px] mb-[8px]">
+                ۳۰۰,۰۰۰ تومان
+              </p>
+              <p class="font-sans text-[#404040] text-[12px] mb-[5px]">
+                از سایز L تا XXL
+              </p>
+              <div class="flex">
+                <div class="w-[18px] h-[18px] bg-[#01070D] rounded-[50%]"></div>
+                <div class="w-[18px] h-[18px] bg-[#CBCBCB] rounded-[50%]"></div>
+                <div class="w-[18px] h-[18px] bg-[#01070D] rounded-[50%]"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- #endregion sale-->
+      <div class="w-fit h-[48px] mx-auto">
+        <p class="font-sans text-[30px] text-[#021526]">
+          جدید ترین کفش های ورزشی
+        </p>
+      </div>
+      <div class="flex mr-[1200px] gap-[6px]">
+        <img
+          src="./src/images/sale/arrow-left.svg"
+          alt=""
+          class="w-[24px] h-[24px]"
+        />
+        <a href="#" class="font-sans text-[#032340] text-[18px]">مشاهده همه</a>
+      </div>
+      <div class="w-full h-[600px] flex justify-center mt-[30px]">
+        <div class="w-[80%] h-full flex justify-evenly">
+          <div
+            class="relative w-[366px] h-[467px] rounded-[8px] border-[1px] border-[lightgrey]"
+          >
+            <img
+              src="./src/images/sale/image-4r.png"
+              alt=""
+              class="w-[366px] h-[280px]"
+            />
+            <div
+              class="absolute w-[40px] h-[40px] top-0 left-0 rounded-[50%] bg-[#FA541C]"
+            >
+              <p class="text-[#FFFFFF] mt-[8px] mr-[6px]">VIP</p>
+            </div>
+            <div class="w-[366px] h-[187px] p-[15px]">
+              <p class="font-sans text-[#01070D] text-[16px] mb-[8px]">
+                نایک مدل AO-14
+              </p>
+              <p class="font-sans text-[#000306] text-[14px] mb-[8px]">
+                ۳۰۰,۰۰۰ تومان
+              </p>
+              <p class="font-sans text-[#404040] text-[12px] mb-[5px]">
+                از سایز L تا XXL
+              </p>
+              <div class="flex">
+                <div class="w-[18px] h-[18px] bg-[#01070D] rounded-[50%]"></div>
+                <div class="w-[18px] h-[18px] bg-[#CBCBCB] rounded-[50%]"></div>
+                <div class="w-[18px] h-[18px] bg-[#01070D] rounded-[50%]"></div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="relative w-[366px] h-[467px] rounded-[8px] border-[1px] border-[lightgrey]"
+          >
+            <img
+              src="./src/images/sale/image-5.png"
+              alt=""
+              class="w-[366px] h-[280px]"
+            />
+            <div
+              class="absolute w-[40px] h-[40px] top-0 left-0 rounded-[50%] bg-[#67AAE6]"
+            >
+              <p class="text-[#032340] mt-[8px]">24%</p>
+            </div>
+            <div class="w-[366px] h-[187px] p-[15px]">
+              <p class="font-sans text-[#01070D] text-[16px] mb-[8px]">
+                کفش نایک 2024
+              </p>
+              <p class="font-sans text-[#000306] text-[14px] mb-[8px]">
+                ۳۰۰,۰۰۰ تومان
+              </p>
+              <p class="font-sans text-[#404040] text-[12px] mb-[5px]">
+                از سایز L تا XXL
+              </p>
+              <div class="flex">
+                <div class="w-[18px] h-[18px] bg-[#01070D] rounded-[50%]"></div>
+                <div class="w-[18px] h-[18px] bg-[#CBCBCB] rounded-[50%]"></div>
+                <div class="w-[18px] h-[18px] bg-[#01070D] rounded-[50%]"></div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="relative w-[366px] h-[467px] rounded-[8px] border-[1px] border-[lightgrey]"
+          >
+            <img
+              src="./src/images/sale/image-6.png"
+              alt=""
+              class="w-[366px] h-[280px]"
+            />
+            <div
+              class="absolute w-[40px] h-[40px] top-0 left-0 rounded-[50%] bg-[#67AAE6]"
+            >
+              <p class="text-[#032340] mt-[8px]">24%</p>
+            </div>
+            <div class="w-[366px] h-[187px] p-[15px]">
+              <p class="font-sans text-[#01070D] text-[16px] mb-[8px]">
+                کفش نایک مدل S-2000
+              </p>
+              <p class="font-sans text-[#000306] text-[14px] mb-[8px]">
+                ۳۰۰,۰۰۰ تومان
+              </p>
+              <p class="font-sans text-[#404040] text-[12px] mb-[5px]">
+                از سایز L تا XXL
+              </p>
+              <div class="flex">
+                <div class="w-[18px] h-[18px] bg-[#01070D] rounded-[50%]"></div>
+                <div class="w-[18px] h-[18px] bg-[#CBCBCB] rounded-[50%]"></div>
+                <div class="w-[18px] h-[18px] bg-[#01070D] rounded-[50%]"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- #region image2-->
+      <div class="w-[100%] h-[600px] relative">
+        <div
+          class="absolute w-[371px] h-[200px] top-[159px] left-[924px] p-[24px]"
+        >
+          <p class="font-sans text-[18px] text-[#01070D] mb-[5px]">
+            برای لذت بردن از مسیر
+          </p>
+          <h3 class="font-sans font-bold text-[#01070D]">
+            دوچرخه اسکیت و اسکوتر بگیر
+          </h3>
+          <div
+            class="flex justify-center items-center gap-[5px] bg-[#032340] rounded-[5px] w-[236px] h-[48px] mt-[25px]"
+          >
+            <img src="./src/images/header/arrow-left.svg" alt="" />
+            <a href="#" class="text-[#FFFFFF] font-sans text-[14px] font-bold">
+              مشاهده همه محصولات
+            </a>
+          </div>
+        </div>
+        <img
+          src="./src/images/imagee/img.png"
+          alt=""
+          class="w-full h-full object-cover"
+        />
+      </div>
+      <!-- #endregion image2-->
     </div>
+    <!-- #region sale2-->
+    <div class="w-fit h-[48px] mx-auto mt-[60px]">
+      <p class="font-sans text-[32px] text-[#021526]">تخفیفات ویژه</p>
+    </div>
+    <div class="flex mr-[1200px] gap-[6px]">
+      <img
+        src="./src/images/sale/arrow-left.svg"
+        alt=""
+        class="w-[24px] h-[24px]"
+      />
+      <a href="#" class="font-sans text-[#032340] text-[18px]">مشاهده همه</a>
+    </div>
+    <div class="w-full h-[600px] flex justify-center mt-[30px]">
+      <div class="w-[80%] h-full flex justify-evenly">
+        <div
+          class="relative w-[366px] h-[467px] rounded-[8px] border-[1px] border-[lightgrey]"
+        >
+          <img
+            src="./src/images/sale/1.png"
+            alt=""
+            class="w-[366px] h-[280px]"
+          />
+          <div
+            class="absolute w-[40px] h-[40px] top-0 left-0 rounded-[50%] bg-[#FA541C]"
+          >
+            <p class="text-[#FFFFFF] mt-[8px] mr-[6px]">VIP</p>
+          </div>
+          <div class="w-[366px] h-[187px] p-[15px]">
+            <p class="font-sans text-[#01070D] text-[16px] mb-[8px]">
+              اسکوتر مدل A-155
+            </p>
+            <p class="font-sans text-[#000306] text-[14px] mb-[8px]">
+              ۳۰۰,۰۰۰ تومان
+            </p>
+            <p class="font-sans text-[#404040] text-[12px] mb-[5px]">
+              از سایز 10 تا 14
+            </p>
+            <div class="flex">
+              <div class="w-[18px] h-[18px] bg-[#01070D] rounded-[50%]"></div>
+              <div class="w-[18px] h-[18px] bg-[#CBCBCB] rounded-[50%]"></div>
+              <div class="w-[18px] h-[18px] bg-[#01070D] rounded-[50%]"></div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="relative w-[366px] h-[467px] rounded-[8px] border-[1px] border-[lightgrey]"
+        >
+          <img
+            src="./src/images/sale/2.png"
+            alt=""
+            class="w-[366px] h-[280px]"
+          />
+          <div class="w-[366px] h-[187px] p-[15px]">
+            <p class="font-sans text-[#01070D] text-[16px] mb-[8px]">
+              دوچرخه مدل S-2000
+            </p>
+            <p class="font-sans text-[#000306] text-[14px] mb-[8px]">
+              ۳۰۰,۰۰۰ تومان
+            </p>
+            <p class="font-sans text-[#404040] text-[12px] mb-[5px]">
+              از سایز 10 تا 14
+            </p>
+            <div class="flex">
+              <div class="w-[18px] h-[18px] bg-[#01070D] rounded-[50%]"></div>
+              <div class="w-[18px] h-[18px] bg-[#CBCBCB] rounded-[50%]"></div>
+              <div class="w-[18px] h-[18px] bg-[#01070D] rounded-[50%]"></div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="relative w-[366px] h-[467px] rounded-[8px] border-[1px] border-[lightgrey]"
+        >
+          <img
+            src="./src/images/sale/3.png"
+            alt=""
+            class="w-[366px] h-[280px]"
+          />
+          <div class="w-[366px] h-[187px] p-[15px]">
+            <p class="font-sans text-[#01070D] text-[16px] mb-[8px]">
+              دوچرخه مدل AO-14
+            </p>
+            <p class="font-sans text-[#000306] text-[14px] mb-[8px]">
+              ۳۰۰,۰۰۰ تومان
+            </p>
+            <p class="font-sans text-[#404040] text-[12px] mb-[5px]">
+              از سایز 10 تا 14
+            </p>
+            <div class="flex">
+              <div class="w-[18px] h-[18px] bg-[#01070D] rounded-[50%]"></div>
+              <div class="w-[18px] h-[18px] bg-[#CBCBCB] rounded-[50%]"></div>
+              <div class="w-[18px] h-[18px] bg-[#01070D] rounded-[50%]"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- #endregion sale2-->
+    <!-- #region new2-->
+    <div class="w-full h-[500px] flex justify-center">
+      <div class="w-[70%] h-[100%] flex justify-between gap-[15px]">
+        <div class="w-[392px] h-[462px] relative">
+          <img
+            src="./src/images/imagee/image-1.png"
+            alt=""
+            class="w-full h-[384px] object-cover rounded-md"
+          />
+          <div class="absolute bottom-[75px]">
+            <img
+              src="./src/images/imagee/1.png"
+              alt=""
+              class="h-[140px] w-[392px]"
+            />
+          </div>
+          <div class="absolute bottom-[110px] pr-[10px]">
+            <p class="font-sans text-[#FFFFFF] text-[16px] mb-[5px]">
+              جدیدترین تخفیفات فصل برند پوما
+            </p>
+            <p class="font-sans text-[#FFFFFF] text-[16px]">
+              ۵۰ ٪ تخفیف روی تمام محصولات
+            </p>
+          </div>
+        </div>
+        <div class="w-[392px] h-[462px] relative">
+          <img
+            src="./src/images/imagee/image-2.png"
+            alt=""
+            class="w-full h-[384px] object-cover rounded-md"
+          />
+          <div class="absolute bottom-[75px]">
+            <img
+              src="./src/images/imagee/1.png"
+              alt=""
+              class="h-[130px] w-[392px]"
+            />
+          </div>
+          <div class="absolute bottom-[110px] pr-[10px]">
+            <p class="font-sans text-[#FFFFFF] text-[16px] mb-[5px]">
+              جدیدترین تخفیفات فصل برند نایک
+            </p>
+            <p class="font-sans text-[#FFFFFF] text-[16px]">
+              ۵۰ ٪ تخفیف روی تمام محصولات
+            </p>
+          </div>
+        </div>
+        <div class="w-[392px] h-[462px] relative">
+          <div class="w-[309px] h-[221px] absolute bottom-[79px]">
+            <h2 class="text-[#032340] font-sans font-bold text-[20px]">
+              پر فروش ترین محصولات
+            </h2>
+            <p class="text-[15px] font-sans font-bold text-[#606060] mt-[15px]">
+              پرفروش ترین محصولات با ارسال رایگان تهیه کنید و در سریع ترین زمان
+              درب منزل تحویل بگیرید.
+            </p>
+            <div
+              class="flex justify-center items-center w-[309px] h-[48px] bg-[#FA541C] rounded-[5px] gap-[8px] mt-[62px]"
+            >
+              <img src="./src/images/header/arrow-left.svg" alt="" />
+              <a href="#" class="text-[#FFFFFF] font-sans font-bold text-[14px]">
+                مشاهده همه محصولات
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- #endregion new2 -->
+    <div class="w-[100%] h-[600px] relative">
+      <img
+        src="./src/images/44.png"
+        alt=""
+        class="object-cover w-full h-full"
+      />
+      <div class="absolute top-[75px] left-[890px] w-[409px] h-[128px]">
+        <p class="text-[28px] font-sans text-[#FFFFFF]">
+          بزودی کامل ترین مجموعه از لوازم کمپ در فیت لند
+        </p>
+        <p class="text-[18px] font-sans text-[#FFFFFF]">از سفر لذت ببر</p>
+      </div>
+    </div>
+    <!-- #region sport-->
+    <div class="w-full h-[603px] flex justify-center">
+      <div class="w-[80%] h-[100%] mt-[60px]">
+        <div class="w-fit h-[48px] mx-auto">
+          <p class="text-[#021526] font-sans text-[28px] font-bold">
+            جدیدترین ها در اخبار ورزش
+          </p>
+        </div>
+        <div class="w-full h-[515px] flex justify-evenly mt-[35px]">
+          <div
+            class="w-[564px] h-[515px] rounded-[8px] border-[1px] border-[lightgray]"
+          >
+            <img
+              src="./src/images/sport/11.png"
+              alt=""
+              class="w-[564px] h-[307px]"
+            />
+            <p
+              class="font-sans text-[#01070D] text-[22px] font-bold mt-[10px] pr-[8px]"
+            >
+              افزایش دریافتی فوتبالیست ها و معافیت از سربازی
+            </p>
+            <p
+              class="font-sans text-[#01070D] text-[16px] mt-[10px] w-[518px] h-[48px] pr-[8px]"
+            >
+              خبرها حاکی از آن است که رییس فدراسیون فوتبال اعلام کرد در فصل جاری
+              قرار داد هر بازیکن فوتبال 50 درصد افزایش پیدا میکند همچنین وی
+              گفت...
+            </p>
+            <div
+              class="flex items-center justify-center gap-[4px] w-[153px] h-[48px] rounded-[10px] bg-[#FA541C] mt-[45px] mr-[10px]"
+            >
+              <img
+                src="./src/images/header/arrow-left.svg"
+                alt=""
+                class="w-[24px] h-[24px]"
+              />
+              <a href="#" class="text-[#FFFFFF] font-sans text-[14px]">مشاهده خبر</a>
+            </div>
+          </div>
+          <div
+            class="w-[564px] h-[515px] rounded-[10px] border-[1px] border-[lightgray] "
+          >
+            <img
+              src="./src/images/sport/22.png"
+              alt=""
+              class="w-[564px] h-[307px]"
+            />
+            <p
+              class="font-sans text-[#01070D] text-[22px] font-bold mt-[10px] pr-[8px]"
+            >
+              شکست استرالیا در گام نخست جام جهانی فوتبال زنان!
+            </p>
+            <p
+              class="font-sans text-[#01070D] text-[16px] mt-[10px] w-[518px] h-[48px] pr-[8px]"
+            >
+              تیم‌ها در روز اول مسابقات جام جهانی فوتبال زنان در شهر مادرید
+              اسپانیا با یکدیگر به رقابت پرداختند.
+            </p>
+            <div
+              class="flex items-center justify-center gap-[4px] w-[153px] h-[48px] rounded-[10px] bg-[#FA541C] mt-[45px] mr-[10px]"
+            >
+              <img
+                src="./src/images/header/arrow-left.svg"
+                alt=""
+                class="w-[24px] h-[24px]"
+              />
+              <a href="#" class="text-[#FFFFFF] font-sans text-[14px]">مشاهده خبر</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- #endregion sport-->
+
     <!-- #endregion wrapper-->
   </body>
 </html>
