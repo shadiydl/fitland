@@ -1007,6 +1007,46 @@
       margin-inline: auto;
     }
   }
+  .lg\:mt-\[-1px\] {
+    @media (width >= 64rem) {
+      margin-top: -1px;
+    }
+  }
+  .lg\:mt-\[-2px\] {
+    @media (width >= 64rem) {
+      margin-top: -2px;
+    }
+  }
+  .lg\:mt-\[-3px\] {
+    @media (width >= 64rem) {
+      margin-top: -3px;
+    }
+  }
+  .lg\:mt-\[-4px\] {
+    @media (width >= 64rem) {
+      margin-top: -4px;
+    }
+  }
+  .lg\:mt-\[-5px\] {
+    @media (width >= 64rem) {
+      margin-top: -5px;
+    }
+  }
+  .lg\:mt-\[-8px\] {
+    @media (width >= 64rem) {
+      margin-top: -8px;
+    }
+  }
+  .lg\:mt-\[-10px\] {
+    @media (width >= 64rem) {
+      margin-top: -10px;
+    }
+  }
+  .lg\:mt-\[-15px\] {
+    @media (width >= 64rem) {
+      margin-top: -15px;
+    }
+  }
   .lg\:mt-\[8px\] {
     @media (width >= 64rem) {
       margin-top: 8px;
@@ -1167,9 +1207,47 @@
       margin-bottom: 70px;
     }
   }
+  .lg\:mb-\[100px\] {
+    @media (width >= 64rem) {
+      margin-bottom: 100px;
+    }
+  }
+  .lg\:mb-\[120px\] {
+    @media (width >= 64rem) {
+      margin-bottom: 120px;
+    }
+  }
+  .lg\:mb-\[130px\] {
+    @media (width >= 64rem) {
+      margin-bottom: 130px;
+    }
+  }
+  .lg\:mb-\[200px\] {
+    @media (width >= 64rem) {
+      margin-bottom: 200px;
+    }
+  }
+  .lg\:ml-\[50px\] {
+    @media (width >= 64rem) {
+      margin-left: 50px;
+    }
+  }
+  .lg\:ml-\[100px\] {
+    @media (width >= 64rem) {
+      margin-left: 100px;
+    }
+  }
   .lg\:box-border {
     @media (width >= 64rem) {
       box-sizing: border-box;
+    }
+  }
+  .lg\:line-clamp-none {
+    @media (width >= 64rem) {
+      overflow: visible;
+      display: block;
+      -webkit-box-orient: horizontal;
+      -webkit-line-clamp: unset;
     }
   }
   .lg\:block {
@@ -2077,6 +2155,11 @@
       padding-right: 15px;
     }
   }
+  .lg\:pr-\[30px\] {
+    @media (width >= 64rem) {
+      padding-right: 30px;
+    }
+  }
   .lg\:pr-\[35px\] {
     @media (width >= 64rem) {
       padding-right: 35px;
@@ -2085,6 +2168,21 @@
   .lg\:pr-\[40px\] {
     @media (width >= 64rem) {
       padding-right: 40px;
+    }
+  }
+  .lg\:pr-\[50px\] {
+    @media (width >= 64rem) {
+      padding-right: 50px;
+    }
+  }
+  .lg\:pr-\[60px\] {
+    @media (width >= 64rem) {
+      padding-right: 60px;
+    }
+  }
+  .lg\:pr-\[65px\] {
+    @media (width >= 64rem) {
+      padding-right: 65px;
     }
   }
   .lg\:pb-\[10px\] {
@@ -2110,6 +2208,11 @@
   .lg\:pl-\[40px\] {
     @media (width >= 64rem) {
       padding-left: 40px;
+    }
+  }
+  .lg\:text-center {
+    @media (width >= 64rem) {
+      text-align: center;
     }
   }
   .lg\:font-sans {
